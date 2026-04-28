@@ -1,110 +1,151 @@
-# 🔒 Authentication-system - Simple, Secure User Access Made Easy
-
-[![Download the latest version](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip%https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip)](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip)
+# 🔒 Authentication System - Simple, Secure User Access Made Easy
 
 ## 🚀 Getting Started
 
-Welcome to the Authentication-system! This application provides a modern and secure way for users to register, log in, and manage their profiles. Whether you need to protect user data or implement secure authentication methods, this system is here to help.
+Welcome to the Authentication System! This application provides a modern and secure way for users to register, log in, and manage their profiles. It is built using Node.js, Express, MongoDB, and JWT authentication.
+
+---
 
 ## 📋 Features
 
-- User registration  
-- User login  
-- Profile management  
-- JWT-based authentication with HTTP-only cookies  
+* ✅ User Registration
+* ✅ User Login
+* ✅ Profile Management
+* ✅ JWT Authentication (HTTP-only cookies)
+* ✅ Secure Backend with MongoDB
 
-## 📥 Download & Install
+---
 
-To get started, visit this page to download the latest release: [Authentication-system Releases](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip).
+## 📥 Installation & Setup
 
-1. Click on the link above to open the Releases page.
-2. Choose the latest version available.
-3. Download the file suitable for your operating system.
+### 1️⃣ Clone the Repository
 
-You will find installation instructions for Windows, macOS, and Linux below.
+```bash
+git clone https://github.com/phani73/authentication.git
+cd authentication
+```
 
-### 🖥 Windows Installation
+---
 
-1. Download the `.exe` file from the Releases page.
-2. Double-click the downloaded file to run the installer.
-3. Follow the installation prompts. You will need administrator access to complete this process.
-4. Once installed, open the application from the Start Menu.
+### 2️⃣ Install Dependencies
 
-### 🍏 macOS Installation
+#### Backend
 
-1. Download the `.dmg` file from the Releases page.
-2. Open the downloaded file.
-3. Drag the Authentication-system icon to your Applications folder.
-4. Launch the application from Finder.
+```bash
+cd server
+npm install
+```
 
-### 🐧 Linux Installation
+#### Frontend
 
-1. Download the `.tgz` file from the Releases page.
-2. Open your terminal.
-3. Navigate to the directory where you downloaded the file.
-4. Extract the contents using the command: `tar -xvzf https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip`.
-5. Change into the directory: `cd Authentication-system`.
-6. Run the application using the command: `https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip`.
+```bash
+cd client
+npm install
+```
 
-## 🔧 System Requirements
+---
 
-- **Operating System:** 
-  - Windows 10 or later
-  - macOS 10.14 or later
-  - Any Linux distribution with support for https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip
+### 3️⃣ Setup Environment Variables
 
-- **Hardware:** 
-  - 4 GB RAM minimum
-  - 200 MB free disk space 
+Create a `.env` file inside the **server folder**:
 
-- **Software Dependencies:**
-  - https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip version 14 or later
-  - MongoDB version 4.0 or later
+```env
+MONGO_URI=mongodb+srv://phani:YOUR_PASSWORD@phani.el06ecq.mongodb.net/yourDB
+PORT=5000
+JWT_SECRET=yourSecretKey
+NODE_ENV=development
+CLIENT_URL=http://localhost:3000
+```
 
-## 🛠️ How to Use the Application
+---
 
-1. **Registration:**
-   - Open the application.
-   - Click on "Register."
-   - Fill in your details and submit the form.
-   - You will receive a confirmation email.
+### 4️⃣ Run the Application
 
-2. **Login:**
-   - After confirming your email, return to the main screen.
-   - Click on "Login."
-   - Enter your email and password.
+#### Start Backend
 
-3. **Profile Management:**
-   - Once logged in, navigate to "Profile."
-   - Here, you can view and edit your personal information.
+```bash
+cd server
+npm run dev
+```
 
-4. **Security Features:**
-   - The application uses JWT-based authentication for enhanced security.
-   - Your session is maintained using HTTP-only cookies.
+#### Start Frontend
 
-## 📝 Troubleshooting
+```bash
+cd client
+npm start
+```
 
-If you encounter issues while using the Authentication-system, first ensure you have the correct version installed based on your operating system. Here are some common problems and their solutions:
+---
 
-- **Cannot log in:**
-  - Verify that you have confirmed your registration email.
-  - Check that you are using the correct email and password.
+## 🌐 Application URLs
 
-- **Application crashes on startup:**
-  - Ensure that your system meets the hardware and software requirements listed above.
-  - Check whether https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip and MongoDB services are running.
+* Frontend: http://localhost:3000
+* Backend: http://localhost:5000
 
-- **Profile updates not saving:**
-  - Ensure you have a stable internet connection.
-  - Try refreshing the page after making changes.
+---
+
+## 🛠️ Tech Stack
+
+* Frontend: React.js
+* Backend: Node.js + Express
+* Database: MongoDB Atlas
+* Authentication: JWT + HTTP-only Cookies
+
+---
+
+## 🔐 How It Works
+
+1. User registers with email & password
+2. Password is securely hashed
+3. JWT token is generated on login
+4. Token is stored in HTTP-only cookies
+5. Protected routes verify user authentication
+
+---
+
+## 🧪 Troubleshooting
+
+### ❌ MongoDB Connection Error
+
+* Check your `MONGO_URI`
+* Ensure IP is allowed in MongoDB Atlas (`0.0.0.0/0`)
+
+### ❌ Login Issues
+
+* Verify credentials
+* Check JWT_SECRET consistency
+
+### ❌ CORS Errors
+
+* Ensure `CLIENT_URL` matches frontend URL
+
+---
 
 ## 📞 Support
 
-For further assistance, please visit our [GitHub Issues page](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip). You can submit a new issue or search for existing solutions.
+If you face any issues, open an issue here:
+👉 https://github.com/phani73/authentication/issues
 
-## ✨ Additional Resources
+---
 
-- [Documentation](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip) - Comprehensive guides on features and usage.
-- [Contributing](https://github.com/Denys200021/Authentication-system/raw/refs/heads/main/client/Authentication_system_v1.6.zip) - Information on how to contribute to this project.
+## 🤝 Contributing
 
-Feel free to reach out if you have any questions or feedback. Enjoy using the Authentication-system!
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch
+3. Make changes
+4. Submit a Pull Request
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+## 👨‍💻 Author
+
+**Phani Varma**
+GitHub: https://github.com/phani73
